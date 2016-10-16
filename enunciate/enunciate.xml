@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enunciate
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://enunciate.webcohesion.com/schemas/enunciate-2.6.0.xsd">
+    <title>OTA/EPS Wrapper</title>
+    <application root="/api" />
+    <modules>
+        <docs disabled="false" basePath="/"></docs>
+        <jackson disabled="false"> </jackson>
+        <jackson1 disabled="true"> </jackson1>
+        <c-xml-client disabled="true"></c-xml-client>
+        <obj-c-xml-client disabled="true"></obj-c-xml-client>
+        <csharp-xml-client disabled="true"></csharp-xml-client>
+        <php-xml-client disabled="true"></php-xml-client>
+        <php-xml-client disabled="true"></php-xml-client>
+        <jaxws disabled="true"/>
+        <swagger dir="swagger" disabled="false"/>
+        <docs disableResourceLinks="true"/>
+    </modules>
+    <api-classes>
+        <include pattern="com.pscheidl.jerseyweb.**"/>
+    </api-classes>
+
+</enunciate>
