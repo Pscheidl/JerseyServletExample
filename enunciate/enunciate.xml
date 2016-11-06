@@ -2,7 +2,7 @@
 <enunciate
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://enunciate.webcohesion.com/schemas/enunciate-2.6.0.xsd">
-    <title>OTA/EPS Wrapper</title>
+    <title>Example documentation</title>
     <application root="/api" />
     <modules>
         <docs disabled="false" basePath="/"></docs>
